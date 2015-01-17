@@ -90,117 +90,153 @@ h2 {
   font-size: 18px;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/* line 39, ../sass/style.scss */
 .content-center {
   text-align: center;
   padding: 10px;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .opt-bar {
   padding: 5px;
   background-color: black;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .opt-left {
   display: inline-block;
   margin-left: 15%;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .opt-right {
   display: inline-block;
   margin-left: 45%;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .opt-button {
   margin-bottom: 40px;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .nav-bar {
   background-color: gray;
   padding: 6px;
 }
 
-/* line 67, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .logo {
   height: 36px;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .menu {
   margin-left: 15%;
 }
 
-/* line 75, ../sass/style.scss */
-.upload-button {
+/* line 80, ../sass/style.scss */
+.orange-button {
   background-color: orange;
   padding: 5px;
   border-radius: 2px;
 }
 
-/* line 81, ../sass/style.scss */
-.flower-button {
-  background-color: orange;
-  padding: 5px;
-  border-radius: 2px;
-}
-
-/* line 87, ../sass/style.scss */
-.create-button {
+/* line 86, ../sass/style.scss */
+.blue-button {
   background: #2672AE;
   padding: 5px;
   border-radius: 2px;
 }
 
-/* line 93, ../sass/style.scss */
-.no-button {
+/* line 92, ../sass/style.scss */
+.transparent-button {
   padding: 5px;
   border-radius: 2px;
   border: solid 2px white;
 }
 
-/* line 99, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
+.white-button {
+  background-color: white;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+/* line 104, ../sass/style.scss */
+.white-button span {
+  color: #2672AE;
+}
+
+/* line 108, ../sass/style.scss */
 .footer {
   background-color: #3b3835;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .main {
   background-image: url(../images/background.png);
   text-align: center;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .center-message {
   margin-top: 50px;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .center-message p {
   font-size: 20px;
-  font-weight: 200;
+  padding: 0 450px;
+  line-height: 1.5;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .left-img {
   position: relative;
   right: -160px;
   z-index: 1;
 }
 
-/* line 124, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .middle-img {
   position: relative;
   right: -100px;
   z-index: 0;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .right-img {
   position: relative;
   left: -100px;
+}
+
+/* line 145, ../sass/style.scss */
+.step {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+/* line 150, ../sass/style.scss */
+.step-span {
+  color: gray;
+  font-size: 15px;
+}
+
+/* line 155, ../sass/style.scss */
+.footer-span {
+  color: gray;
+  font-size: 13px;
+}
+
+/* line 160, ../sass/style.scss */
+.angular-span {
+  font-size: 50px;
+  color: gray;
 }

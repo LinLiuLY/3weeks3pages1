@@ -28,6 +28,11 @@ h2 {
 	font-size:18px;
 }
 
+h3 {
+	color:white;
+	font-size:20px;
+}
+
 .content-header {
 }
 
@@ -72,29 +77,33 @@ h2 {
     margin-left: 15%;
 }
 
-.upload-button {
+.orange-button {
     background-color: orange;
     padding: 5px;
     border-radius: 2px;
 }
 
-.flower-button {
-	background-color: orange;
-    padding: 5px;
-    border-radius: 2px;
-}
-
-.create-button {
+.blue-button {
 	background: #2672AE;
     padding: 5px;
     border-radius: 2px;
 }
 
-.no-button {
+.transparent-button {
     padding: 5px;
     border-radius: 2px;
 	border:solid 2px white;    
 }
+
+.white-button {
+	background-color: white;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.white-button span {
+	color: #2672AE;
+} 
 
 .footer {
 	background-color:#3b3835;
@@ -112,7 +121,8 @@ h2 {
 
 .center-message p{
 	font-size:20px;
-	font-weight:200;
+	padding: 0 450px;
+    line-height: 1.5;
 }
 
 .left-img {
@@ -131,5 +141,25 @@ h2 {
     position: relative;
     left: -100px;
 }
-    
+
+.step {
+    display: inline-block;
+    margin:0 40px;
+}
+
+.step-span {
+	color:gray;
+	font-size:15px;
+}
+
+.footer-span {
+	color:gray;
+	font-size:13px;
+}
+
+.angular-span {
+    font-size: 50px;
+    color: gray;
+}
+
 
